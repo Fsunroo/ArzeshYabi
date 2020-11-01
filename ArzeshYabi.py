@@ -4,8 +4,8 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.select import Select
 import time
 url="http://saba.sums.ac.ir/"
-UserName="9612104264"
-PassWord="2050917899"
+UserName=""    #Enter U'r username
+PassWord=""    #Enter U'r password
 Driver=webdriver.Chrome("D:\programming\PROJECT\-----SOURCE-----\86\chromedriver.exe")
 Driver.get(url)
 Driver.maximize_window()
