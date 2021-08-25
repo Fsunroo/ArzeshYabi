@@ -5,8 +5,8 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException
 import time
 url = "http://saba.sums.ac.ir/Hermes.html"
-UserName = "9612104264"
-PassWord = "2050917899"
+UserName = ""
+PassWord = ""
 Driver = webdriver.Chrome()
 Driver.get(url)
 Driver.maximize_window()
